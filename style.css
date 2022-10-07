@@ -1,0 +1,19 @@
+* {
+    margin: 0;	
+	text-align: center;	
+	box-sizing: border-box;
+}
+#links {
+    text-align: center;
+    
+}
+#content {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+li {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
