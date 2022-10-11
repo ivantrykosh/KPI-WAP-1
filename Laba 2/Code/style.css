@@ -6,8 +6,11 @@
 h1{
 	background-color: white;
 	border: 2px solid black;
-	width: 60%;
 	font-size: 30px;
+}
+.pages {
+	flex: right;
+	margin-left: auto;
 }
 .pages > a{
 	border: 2px solid black;
@@ -16,9 +19,13 @@ h1{
 	font-size: 20px;
 }
 .column{
-	flex: 50%;
+	width: 50%;
+	height: max-content;
 }
 #content{
+	display: flex;
+}
+#content.left-column {
 	display: flex;
 }
 #h_1{
@@ -27,87 +34,75 @@ h1{
 #h_3{
 	margin-left: 2%;
 	font-size: 22px;
+	text-align: left;
+	height: max-content;
 }
 #h_2{
 	margin-right: 2%;
 	flex: right;
 	margin-left: auto;
+	height: max-content;
 }
-#left-column{
+.left-column{
 	flex: 25%;
-	background-color: yellow;
 	border-right: 2px solid black;
+	display: flex;
+	flex-direction: column;
 }
-#right-column{
-	flex: 66%;
-	background-color: red;
+.right-column{
+	flex: 75%;
+}
+#main-content {
 	margin-left: 10%;
 	border-left: 2px solid black;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 #p1{
-	height: 600px;
+	min-height: 600px;
+	display: flex;
+	height: 100%;
 	background-color: #d6c694;
 	font-size: 22px;
-	overflow: hidden;
 }
 #p2{
-	height: 100px;
+	max-height: max-content;
 	background-color: #94b6d6;
 	border-bottom: 2px solid black;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: flex;
-	flex: 50%;
-	overflow: hidden;
 }
 #p3{
-	height: 500px;
+	min-height: 500px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 	background-color: white;
 	font-size: 22px;
-	overflow: hidden;
 }
 #p4{
-	height: 100px;
 	background-color: #cbd694;
 	border-top: 2px solid black;
 	font-size: 22px;
-	overflow: hidden;
+	margin-top: auto;
+	max-height: max-content;
+	display: flex;
 }
 #p5{
-	height: 100px;
+	margin-top: auto;
+	max-height: max-content;
 	background-color: #94b6d6;
 	border-top: 2px solid black;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: flex;
-	flex: 50%;
-	overflow: hidden;
 }
-#list{
-	font-size: 22px;
-}
-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	padding-top: 3px;
-}
-#text1{
-	padding-top: 100px;
-}
-#text2{
-	padding-top: 10px;
-}
-#text3{
-	padding-top: 5px;
-}
-#text4{
-	padding-top: 50%;
-}
-.song{
-	padding-top: 45px;
-}
-.list{
-	padding-top: 150px;
+.text{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
 }
