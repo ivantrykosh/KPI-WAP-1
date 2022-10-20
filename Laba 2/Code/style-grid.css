@@ -24,7 +24,9 @@
 	border-top: 2px solid black;
 	font-size: 22px;
 	margin-top: auto;
+	display: grid;
 	height: 100%;
+	align-items: center;
 }
 .right-column{
 	margin-left: 10%;
@@ -42,6 +44,7 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: grid;
+	align-items: center;
 	grid-template-columns: 1fr 1fr;
 }
 #p3{
