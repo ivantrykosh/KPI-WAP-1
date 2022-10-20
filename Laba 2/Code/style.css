@@ -24,6 +24,7 @@ h1{
 }
 #content{
 	display: flex;
+	flex-direction: column;
 }
 #content.left-column {
 	display: flex;
@@ -52,7 +53,7 @@ h1{
 .right-column{
 	flex: 75%;
 }
-#main-content {
+.main-content {
 	margin-left: 10%;
 	border-left: 2px solid black;
 	height: 100%;
@@ -87,17 +88,20 @@ h1{
 	border-top: 2px solid black;
 	font-size: 22px;
 	margin-top: auto;
-	max-height: max-content;
+	min-height: max-content;
+	height: 100%;
 	display: flex;
 }
 #p5{
 	margin-top: auto;
-	max-height: max-content;
+	min-height: max-content;
+	height: 100%;
 	background-color: #94b6d6;
 	border-top: 2px solid black;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: flex;
+	align-items: center;
 }
 .text{
 	display: flex;
@@ -105,4 +109,10 @@ h1{
 	width: 100%;
 	height: 100%;
 	justify-content: center;
+}
+.row1 {
+	display: flex;
+}
+.row2 {
+	display: flex;
 }
