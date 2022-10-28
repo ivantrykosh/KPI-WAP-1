@@ -19,7 +19,8 @@ header {
 }
 #references {
     flex-direction: row;
-    width: 70%;
+    width: 69%;
+    margin-left: 1%;
 }
 #references p {
     margin-top: auto;
@@ -191,5 +192,24 @@ footer {
     }
     #row2 img {
         width: 60%;
+    }
+}
+@media (max-width: 500px) {
+    #row3 div div {
+        width: 100%;
+        margin-left: 25%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+}
+@media (max-width: 400px) {
+    #row3 div div {
+        width: 100%;
+        margin-left: 25%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    #row3 > div {
+        background-size: cover;
     }
 }
