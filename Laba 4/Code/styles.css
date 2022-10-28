@@ -53,7 +53,7 @@ p#color-text {
     align-items: center;
 }
 #row3 > div {
-    background: url("C:/Ivan/WAP-Labs/Laba 4/image3.png"), left;
+    background: url("./image3.png"), left;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
